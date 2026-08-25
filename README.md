@@ -103,7 +103,7 @@ python test_task_guided_fusion.py
 
 1. Quantitative comparison on the M3FD and MSOD datasets.
 
-![Quantitative comparison of object detection](GithubFigures/ODtable.png)
+![Quantitative comparison of object detection](GithubFigures/ODTable.png)
 
 2. Qualitative comparison on the M3FD and MSOD datasets.
 
@@ -114,7 +114,7 @@ python test_task_guided_fusion.py
 
 1. Quantitative comparison on the WHU and Potsdam datasets.
 
-![Quantitative comparison of remote sensing semantic segmentation](GithubFigures/RStable.png)
+![Quantitative comparison of remote sensing semantic segmentation](GithubFigures/RSTable.png)
 
 2. Qualitative comparison on the Potsdam and WHU datasets.
 
