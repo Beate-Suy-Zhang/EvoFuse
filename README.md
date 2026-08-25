@@ -22,35 +22,28 @@ We propose **EvoFuse**, a symbiotic evolutionary learning framework for task-ada
 
 ```bash
 # create virtual environment
-conda create -n DCEvo python=3.9
-conda activate DCEvo
+conda create -n evofuse python=3.10 -y
+conda activate evofuse
+python -m pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0
+
 # install requirements
-pip install -r requirements.txt
+pip install --no-deps -r requirements.txt
 ```
 
 
 ## Datasets Preparation
 
-We provide a demo dataset in **"DCEvo/datasets"**.
+We provide datasets for image fusion in **"EvoFuse/FusionDatasets"**, as well as datasets for downstream tasks in **"EvoFuse/datasets"**.
 
 We test image fusion according to full datasets in the [[IVIF ZOO Project](https://github.com/RollingPlain/IVIF_ZOO/)].  
 
 
 ## Test Image Fusion
 
-Our checkpoints can be found in **"DCEvo/ckpt"**. Then, you can test our pure fusion method through
+Our checkpoints can be found in **"EvoFuse/ckpt"**. Then, you can test our fusion method through
 
 ```bash
 python test_Fusion.py
-```
-
-
-## Color Gray Images
-
-You can color the output gray images for task-guided image fusion training and testing through
-
-```bash
-python tocolor.py
 ```
 
 
@@ -67,7 +60,7 @@ python tocolor.py
 
 ## Test Task-Guided Image Fusion
 
-Testing this pipeline needs to generate **RGB Pure Fusion** images in **"DCEvo/datasets/M3FD/images"**.
+Testing this pipeline needs to generate **RGB Pure Fusion** images in **"EvoFuse/datasets/M3FD/images"**.
 You can test our task-guided fusion method through
 
 ```bash
@@ -128,25 +121,15 @@ EvoFuse achieves a favorable balance between inference efficiency and perceptual
 ![Complexity analysis](GithubFigures/Complexity.png)
 
 
-## Train Pure Image Fusion
+## Train EvoFuse
 
 You can train our Pure fusion method through
 
 ```bash
-python Fusion_train.py
+python main.py
 ```
 
-Training dataset is available in [[BaiduNetdisk](https://pan.baidu.com/s/1xfnkQUQ-5fLT9e7XS7XV1A?pwd=msrs)].  
-
-
-## Train Task-Guided Image Fusion
-
-Training this pipeline needs to generate **RGB Pure Fusion** images in **"DCEvo/datasets/M3FD/train/images"**.
-You can train our task-guided fusion method through
-
-```bash
-python DCEvo_train.py
-```
+Training dataset is available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)].  
 
 
 ## Citation
