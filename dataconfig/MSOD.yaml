@@ -1,0 +1,22 @@
+# M3FD dataset in https://github.com/JinyuanLiu-CV/TarDAL/tree/main
+# proposed in CVPR 2022 (Oral)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ./datasets/MSOD
+train: train/images # train images (relative to 'path') 420*8 images
+val: val/images # val images (relative to 'path') 420*1 images
+test: val/images # test images (relative to 'path') 420*1 images
+
+
+# Classes
+names: 
+  0: Pedestrian
+  1: Car
+  2: Bike
+  3: Color_cone
+  4: Obstacle
+  # 5: Bump
+  # 6: Hole
+  # 7: Animal
+  # 8: Unknown
+

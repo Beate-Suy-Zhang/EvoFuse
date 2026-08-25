@@ -1,0 +1,39 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: ../datasets/CitySpaces # dataset root dir Lesion-seg/
+train: train/images # train images (relative to 'path') 1920 images
+val: val/images # val images (relative to 'path') 500 images
+test: test/images # test images (relative to 'path') 188 images
+
+# Classes
+names:
+  0: road
+  1: sidewalk
+  2: parking
+  3: real track
+  4: person
+  5: rider
+  6: car
+  7: truck
+  8: bus
+  9: on rails
+  10: motorcycle
+  11: bicycle
+  12: caravan
+  13: trailer
+  14: building
+  15: wall
+  16: fence
+  17: guard rail
+  18: bridge
+  19: tunnel
+  20: pole
+  21: pole group
+  22: traffic light
+  23: traffic sign
+  24: vegetation
+  25: terrain
+  26: sky
+  27: ground
+  28: dynamic
+  29: static
