@@ -33,7 +33,7 @@ pip install --no-deps -r requirements.txt
 
 ## Datasets Preparation
 
-We provide datasets for image fusion in **"EvoFuse/FusionDatasets"**, as well as datasets for downstream tasks in **"EvoFuse/datasets"**.
+We provide demo datasets for image fusion in **"EvoFuse/FusionDatasets"**, as well as demo datasets for downstream tasks in **"EvoFuse/datasets"**.
 
 We test image fusion according to full datasets in the [[IVIF ZOO Project](https://github.com/RollingPlain/IVIF_ZOO/)].  
 
