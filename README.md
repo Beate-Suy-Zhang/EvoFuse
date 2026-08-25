@@ -5,7 +5,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2026
 
 [[Paper](https://doi.org/10.1109/TPAMI.2026.3722665)]
 
-![Overview of EvoFuse](Figure/First_Figure.png)
+![Overview of EvoFuse](GithubFigures/First_Figure.png)
 
 
 ## Updates
@@ -58,11 +58,11 @@ python tocolor.py
 
 1. Quantitative comparison of EvoFuse and state-of-the-art infrared and visible image fusion methods on the TNO, RoadScene, FMB, and M3FD datasets.
 
-![Quantitative comparison of image fusion](Figure/fusionTable.png)
+![Quantitative comparison of image fusion](GithubFigures/fusionTable.png)
 
 2. Qualitative comparison of EvoFuse and existing image fusion methods on the TNO, RoadScene, and M3FD datasets.
 
-![Qualitative comparison of image fusion](Figure/fusionResultComp.png)
+![Qualitative comparison of image fusion](GithubFigures/fusionResultComp.png)
 
 
 ## Test Task-Guided Image Fusion
@@ -81,51 +81,51 @@ python test_task_guided_fusion.py
 
 1. Quantitative comparison on the FMB and MFNet datasets.
 
-![Quantitative comparison of semantic segmentation](Figure/SSTable.png)
+![Quantitative comparison of semantic segmentation](GithubFigures/SSTable.png)
 
 2. Qualitative comparison on the FMB and MFNet datasets.
 
-![Qualitative comparison of semantic segmentation](Figure/SSComp.png)
+![Qualitative comparison of semantic segmentation](GithubFigures/SSComp.png)
 
 
 ### Salient Object Detection
 
 1. Quantitative comparison on the VT821, VT1000, and VT5000 datasets.
 
-![Quantitative comparison of salient object detection](Figure/SODTable.png)
+![Quantitative comparison of salient object detection](GithubFigures/SODTable.png)
 
 2. Qualitative comparison on the VT821, VT1000, and VT5000 datasets.
 
-![Qualitative comparison of salient object detection](Figure/SODComp.png)
+![Qualitative comparison of salient object detection](GithubFigures/SODComp.png)
 
 
 ### Multiclass Object Detection
 
 1. Quantitative comparison on the M3FD and MSOD datasets.
 
-![Quantitative comparison of object detection](Figure/ODtable.png)
+![Quantitative comparison of object detection](GithubFigures/ODtable.png)
 
 2. Qualitative comparison on the M3FD and MSOD datasets.
 
-![Qualitative comparison of object detection](Figure/ODComp.png)
+![Qualitative comparison of object detection](GithubFigures/ODComp.png)
 
 
 ### Remote Sensing Semantic Segmentation
 
 1. Quantitative comparison on the WHU and Potsdam datasets.
 
-![Quantitative comparison of remote sensing semantic segmentation](Figure/RStable.png)
+![Quantitative comparison of remote sensing semantic segmentation](GithubFigures/RStable.png)
 
 2. Qualitative comparison on the Potsdam and WHU datasets.
 
-![Qualitative comparison of remote sensing semantic segmentation](Figure/RSComp.png)
+![Qualitative comparison of remote sensing semantic segmentation](GithubFigures/RSComp.png)
 
 
 ## Complexity Analysis
 
 EvoFuse achieves a favorable balance between inference efficiency and perceptual adaptability with a compact re-parameterized fusion network.
 
-![Complexity analysis](Figure/Complexity.png)
+![Complexity analysis](GithubFigures/Complexity.png)
 
 
 ## Train Pure Image Fusion
