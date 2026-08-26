@@ -34,8 +34,65 @@ pip install --no-deps -r requirements.txt
 ## Datasets Preparation
 
 We provide demo datasets for image fusion in **"EvoFuse/FusionDatasets"**, as well as demo datasets for downstream tasks in **"EvoFuse/datasets"**.
+Please organize all datasets as the given dataset demo. Infrared and visible images must be paired using identical filenames.
+
+```text
+EvoFuse/
+├── datasets/
+│   ├── M3FD/
+│   │   ├── train/
+│   │   │   ├── irimages/           # Infrared training images
+│   │   │   ├── viimages/           # Visible training images
+│   │   │   ├── images/             # Generated fusion images
+│   │   │   └── labels/             # Object detection annotations
+│   │   └── val/
+│   │       ├── irimages/
+│   │       ├── viimages/
+│   │       ├── images/
+│   │       └── labels/
+│   ├── FMB/
+│   ├── MFNet/
+│   ├── MSOD/
+│   ├── VT821/
+│   ├── VT1000/
+│   ├── VT5000/
+│   ├── Potsdam/
+│   └── WHU/
+├── FusionDatasets/
+│   ├── M3FD/
+│   │   ├── ir/
+│   │   ├── vi/
+│   ├── TNO/
+│   ├── RoadScene/
+│   ├── FMB/
+└── EvoFuseRuns/                    # Default training work folder for EvoFuse, which can be modified in EvoFuse/evo_path_config/paths.py
+    ├── fusion_model/            # EvoFuse evolutionary checkpoints
+    ├── object_detection/
+    ├── semantic_segmentation/
+    ├── salient_object_detection/
+    ├── remote_sensing/
+```
+
+For example, a paired infrared-visible sample should be organized as follows:
+
+```text
+datasets/M3FD/train/infrared/00001.png
+datasets/M3FD/train/visible/00001.png
+datasets/M3FD/train/labels/00001.txt
+```
+
+The supported datasets are grouped by task as follows:
+
+| Task | Datasets |
+| --- | --- |
+| Image fusion | TNO, RoadScene, FMB, M3FD |
+| Semantic segmentation | FMB, MFNet |
+| Salient object detection | VT821, VT1000, VT5000 |
+| Multiclass object detection | M3FD, MSOD |
+| Remote sensing segmentation | Potsdam, WHU |
 
 We test image fusion according to full datasets in the [[IVIF ZOO Project](https://github.com/RollingPlain/IVIF_ZOO/)].  
+Training datasets for downstream tasks are available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)] or [[Google Drive](https://drive.google.com/drive/folders/1iFKsKatCqofVkj9mgw4ph8mEesxzLneL?usp=sharing)].  
 
 
 ## Test Image Fusion
@@ -45,6 +102,16 @@ Our checkpoints can be found in **"EvoFuse/ckpt"**. Then, you can test our fusio
 ```bash
 python test_Fusion.py
 ```
+
+
+## Train EvoFuse
+
+You can train our Pure fusion method through
+
+```bash
+python main.py
+```
+
 
 
 ## Fusion Results
@@ -119,17 +186,6 @@ python test_task_guided_fusion.py
 EvoFuse achieves a favorable balance between inference efficiency and perceptual adaptability with a compact re-parameterized fusion network.
 
 ![Complexity analysis](GithubFigures/Complexity.png)
-
-
-## Train EvoFuse
-
-You can train our Pure fusion method through
-
-```bash
-python main.py
-```
-
-Training dataset is available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)] or [[Google Drive](https://drive.google.com/drive/folders/1iFKsKatCqofVkj9mgw4ph8mEesxzLneL?usp=sharing)].  
 
 
 ## Citation
