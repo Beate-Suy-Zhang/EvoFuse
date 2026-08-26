@@ -129,7 +129,7 @@ You can train our Pure fusion method through
 python main.py
 ```
 
-Training dataset is available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)].  
+Training dataset is available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)] or [[Google Drive](https://drive.google.com/drive/folders/1iFKsKatCqofVkj9mgw4ph8mEesxzLneL?usp=sharing)].  
 
 
 ## Citation
