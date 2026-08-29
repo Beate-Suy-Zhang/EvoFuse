@@ -11,7 +11,7 @@ IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2026
 ## Updates
 
 [2026-08-10] Our paper is available online in IEEE Transactions on Pattern Analysis and Machine Intelligence! [[Paper](https://doi.org/10.1109/TPAMI.2026.3722665)]  
-
+[2026-08-29] 中译版本已更新! [[中译版本](./pdf/EvoFuse_CN.pdf)]   
 
 ## Introduction
 
