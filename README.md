@@ -3,7 +3,7 @@
 Jinyuan Liu, Bowei Zhang, Ludan Sun, Xingyuan Li, Long Ma, Risheng Liu, Xin Fan, **"Symbiotic Evolutionary Learning for Task-Adaptive Infrared and Visible Image Fusion"**,
 IEEE Transactions on Pattern Analysis and Machine Intelligence **(TPAMI)**, 2026.
 
-[[Paper](https://doi.org/10.1109/TPAMI.2026.3722665)]
+The paper is available in [[Paper](https://doi.org/10.1109/TPAMI.2026.3722665)].
 
 ![Overview of EvoFuse](GithubFigures/First_Figure.png)
 
