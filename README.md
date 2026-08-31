@@ -125,16 +125,6 @@ python main.py
 ![Qualitative comparison of image fusion](GithubFigures/fusionResultComp.png)
 
 
-## Test Task-Guided Image Fusion
-
-Testing this pipeline needs to generate **RGB Pure Fusion** images in **"EvoFuse/datasets/M3FD/images"**.
-You can test our task-guided fusion method through
-
-```bash
-python test_task_guided_fusion.py
-```
-
-
 ## Results of Task-Adaptive Downstream IVIF Applications
 
 ### Image Semantic Segmentation
