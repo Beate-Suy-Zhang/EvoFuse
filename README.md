@@ -85,11 +85,11 @@ The supported datasets are grouped by task as follows:
 
 | Task | Datasets |
 | --- | --- |
-| Image fusion | TNO, RoadScene, FMB, M3FD |
-| Semantic segmentation | FMB, MFNet |
-| Salient object detection | VT821, VT1000, VT5000 |
-| Multiclass object detection | M3FD, MSOD |
-| Remote sensing segmentation | Potsdam, WHU |
+| Image Fusion | TNO, RoadScene, FMB, M3FD |
+| Semantic Segmentation | FMB, MFNet |
+| Salient Object Detection | VT821, VT1000, VT5000 |
+| Multiclass Object Detection | M3FD, MSOD |
+| Remote Sensing Segmentation | Potsdam, WHU |
 
 We test image fusion according to full datasets in the [[IVIF ZOO Project](https://github.com/RollingPlain/IVIF_ZOO/)].  
 Training datasets for downstream tasks are available in [[BaiduNetdisk](https://pan.baidu.com/s/13lVNSMD9eToLxF3_8k3IOA?pwd=evof)] or [[Google Drive](https://drive.google.com/drive/folders/1iFKsKatCqofVkj9mgw4ph8mEesxzLneL?usp=sharing)].  
