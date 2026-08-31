@@ -118,7 +118,7 @@ python main.py
 
 1. Quantitative comparison of EvoFuse and state-of-the-art infrared and visible image fusion methods on the TNO, RoadScene, FMB, and M3FD datasets.
 
-![Quantitative comparison of image fusion](GithubFigures/fusionTable.png)
+![Quantitative comparison of semantic segmentation](./GithubFigures/SSTable.png?raw=true)
 
 2. Qualitative comparison of EvoFuse and existing image fusion methods on the TNO, RoadScene, and M3FD datasets.
 
