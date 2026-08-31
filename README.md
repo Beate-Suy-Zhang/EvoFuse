@@ -131,7 +131,7 @@ python main.py
 
 1. Quantitative comparison on the FMB and MFNet datasets.
 
-![Quantitative comparison of semantic segmentation](./GithubFigures/SSTable.png?raw=true)
+![Quantitative comparison of semantic segmentation](./GithubFigures/SSTable2.png)
 
 2. Qualitative comparison on the FMB and MFNet datasets.
 
