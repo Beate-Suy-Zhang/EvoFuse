@@ -112,7 +112,7 @@ You can train our EvoFuse method through
 python main.py
 ```
 
-In ```main. py```, you can also use this unified code to generate multiple dataset images, train downstream tasks for a model, and test the metrics of a fusion model on multiple downstream tasks.
+In ```main.py```, you can also use this unified code to **generate multiple dataset images**, **train downstream tasks for a model**, and **test the metrics of a fusion model on multiple downstream tasks**.
 
 
 ## Fusion Results
