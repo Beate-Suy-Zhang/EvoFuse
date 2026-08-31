@@ -106,12 +106,13 @@ python test_Fusion.py
 
 ## Train EvoFuse
 
-You can train our Pure fusion method through
+You can train our EvoFuse method through
 
 ```bash
 python main.py
 ```
 
+In ```main. py```, you can also use this unified code to generate multiple dataset images, train downstream tasks for a model, and test the metrics of a fusion model on multiple downstream tasks.
 
 
 ## Fusion Results
